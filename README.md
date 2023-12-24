@@ -60,3 +60,19 @@ Using historical data to predict the future | Finding patterns and relationships
 - Interpret the result of your analysis
 - Share recommendations and next step
 - Focus on potential impact, not technical details
+
+### Goal of **Regression**
+- **Prediction** (Predict the target as accurately as possible)
+- **Inference** (Understand the relationships between the **features** and **target**)
+
+### Types of Regression
+- **Linear Regression** (Models the relationship between the features and target using linear regression)
+- **Regularized Regression** (Penalizes model complexity)
+- **Time Series Forecasting** (Predicts future data using historical trends and seasonality)
+- **Tree-Based Regression** (Splits data by maximizing the difference between groups)
+
+### **Modeling Workflow**
+- Preparing data for modelling (Get your data ready to be input into an ML algorithm, Non Null, Feature Engineering)
+- **Applying Algorithm** (Build models from training data)
+- **Model Evaluation** (Evaluate model fit on training and validation data)
+- **Model Selection** (Pick the best model to deploy and identify insights)
