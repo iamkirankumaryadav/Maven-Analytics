@@ -1,13 +1,13 @@
 ## **Data Preparation and Exploratory Data Analysis**
 
 ### Exploratory Data Analysis
-- The process of exploring and visualizing data to find useful patterns and insights that help inform the modeling process.
-- EDA lets you identify the most promising features from your model.
-- It helps to uncover potential issues with the features or target that need to be addressed.
+- Exploring and visualizing data to find useful patterns and insights that help inform the modelling process.
+- EDA lets you identify the most promising features of your model.
+- It helps to uncover potential issues with the features or targets that need to be addressed.
 
 ### **EDA** for **Regression**
 - Target variable
-- Fetaures
+- Features
 - Feature Target Relationship
 - Feature Feature Relationship
 
@@ -19,6 +19,14 @@
 - Data Visualization (Histogram, Boxplot, Skewness)
 
 ### Exploring the Features
-- Helps us to understand them and start to get a sense of the transformation we need to apply to each one.
+- Helps us understand them and start to understand the transformation we need to apply to each one.
 - Histograms and boxplots (Numeric Features)
 - **value_counts()** and bar charts (Categorical Features)
+
+### Linear Relationships
+- Numeric variables have linear relationships between them (positive, negative, no relationship)
+- Positive relationship (One changes, other changes in same direction)
+- Negative relationship (One changes, other changes in opposite direction)
+- When one variable changes, so does the other
+- These relationships can be visualized with scatterplots and heatmaps
+- 
