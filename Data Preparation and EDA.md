@@ -25,8 +25,34 @@
 
 ### Linear Relationships
 - Numeric variables have linear relationships between them (positive, negative, no relationship)
-- Positive relationship (One changes, other changes in same direction)
+- Positive relationship (One changes, other changes in the same direction)
 - Negative relationship (One changes, other changes in opposite direction)
 - When one variable changes, so does the other
-- These relationships can be visualized with scatterplots and heatmaps
-- 
+- These relationships can be visualized with scatterplots and heatmaps (Correlation Matrix)
+- **Correlation:** Measure the strength and direction of a linear relationship
+- **Correlation Matrix:** Correlation between each column in a DataFrame
+```python
+# Correlation matrix:
+df.corr(numeric_only = True)
+
+# Heatmap:
+sns.heatmap(df.corr(numeric_only = True), annot = True);
+```
+
+### Feature Target Relationships
+- Helps identify potentially useful features for our model
+- Scatterplot, Boxplot, Histogram: Explore numeric features
+- Bar Charts: Explore categorical features
+- Features that have a high correlation with the target is good for prediction
+
+### Feature Feature Relationships
+- Helps identify highly correlated features, which can cause problems with regression models
+- Removing one feature will solve the problem
+- Features that have a high correlation with each other (feature) can cause problems in a model
+
+### Preparing for Modeling
+- Structuring the data as a valid input for a model
+- Stored in a single table (DataFrame)
+- Aggregated to the right grain (1 row per target)
+- Non-null (No missing value)
+- Data type should be converted to numeric (Categorical features should be encoded)
