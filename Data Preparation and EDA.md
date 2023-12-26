@@ -17,6 +17,22 @@
 - What shape? or Distribution?
 - Outliers?
 - Data Visualization (Histogram, Boxplot, Skewness)
+- Right Skewed (Positive Skewed: Mean > Median > Mode)
+- Left Skewed (Negative Skewed: Mode > Median > Mean)
+- Symmetrical (Normal: Mean = Median = Mode)
+
+```python
+import seaborn as sns
+
+# Histogram Plot: (Check the skewness)
+sns.histplot(diamonds['price']);
+
+# Boxplot: (Check outliers and median)
+sns.boxplot(x = diamonds['price'])
+
+# Remove the top and right borders:
+sns.despine();
+```      
 
 ### Exploring the Features
 - Helps us understand them and start to understand the transformation we need to apply to each one.
