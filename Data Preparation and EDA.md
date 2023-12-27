@@ -49,6 +49,17 @@ sns.despine();
 sns.scatterplot(data=ads, x='digital_spend', y='site_traffic');
 ```
 - **Correlation:** Measure the strength and direction of a linear relationship
+Range | Correlation 
+:--- | :---:
+-1 to -0.9 | Very Strong (Negative
+-0.9 to -0.7 | Strong (Negative
+-0.7 to -0.4 | Moderate (Negative
+-0.4 to -0.1 | Weak (Negative)
+-0.1 to 0.1 | None (Negative)
+0.1 to 0.4 | Weak (Positive)
+0.4 to 0.7 | Moderate (Positive)
+0.7 to 0.9 | Strong (Positive)
+0.9 to 1 | Very Strong (Positive)
 - **Correlation Matrix:** Correlation between each column in a DataFrame
 ```python
 # Correlation matrix:
