@@ -45,6 +45,9 @@ sns.despine();
 - Negative relationship (One changes, other changes in opposite direction)
 - When one variable changes, so does the other
 - These relationships can be visualized with scatterplots and heatmaps (Correlation Matrix)
+```python
+sns.scatterplot(data=ads, x='digital_spend', y='site_traffic');
+```
 - **Correlation:** Measure the strength and direction of a linear relationship
 - **Correlation Matrix:** Correlation between each column in a DataFrame
 ```python
