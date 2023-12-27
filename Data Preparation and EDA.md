@@ -50,11 +50,16 @@ sns.scatterplot(data=ads, x='digital_spend', y='site_traffic');
 ```
 - **Correlation:** Measure the strength and direction of a linear relationship
 
+```python
+# Calculate correlations between two columns:
+df['column 1'].corr(df['column 2'])
+```  
+
 Range | Correlation 
 :--- | :---:
--1 to -0.9 | Very Strong (Negative
--0.9 to -0.7 | Strong (Negative
--0.7 to -0.4 | Moderate (Negative
+-1 to -0.9 | Very Strong (Negative)
+-0.9 to -0.7 | Strong (Negative)
+-0.7 to -0.4 | Moderate (Negative)
 -0.4 to -0.1 | Weak (Negative)
 -0.1 to 0.1 | None (Negative)
 0.1 to 0.4 | Weak (Positive)
