@@ -24,7 +24,10 @@ Steps:
 2. Set a significance level (alpha)
 3. Calculate the test statistic and p-value.
 4. Conclude test:
-  - If **p-value <= alpha**, reject the null hypothesis (The model is useless)
+  - If **p-value <= alpha**, reject the null hypothesis 
   - If **p-value > alpha**, don't reject (Model needs more training)
 
-    
+### **Residual Plots**
+- How well a model performs across a range of predictions.
+- Ideally, residual plots show errors to be normally distributed around 0.
+- model.resid returns a series with the residuals (Actual - Predicted)
