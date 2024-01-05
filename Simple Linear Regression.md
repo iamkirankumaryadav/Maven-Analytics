@@ -25,4 +25,6 @@ Steps:
 3. Calculate the test statistic and p-value.
 4. Conclude test:
 -- If **p-value <= alpha**, reject the null hypothesis (Model is useless)
--- If **p-value > alpha**, don't reject (Model needs more training)   
+-- If **p-value > alpha**, don't reject (Model needs more training)
+
+    
